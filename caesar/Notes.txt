@@ -1,0 +1,22 @@
+****Caesar****
+
+caesar(A,1)
+A becomes B as A + 1 = B.
+
+
+Notes of how to achieve:
+
+Make a string of the alphabet / maybe string of uppercase value, check if there is a isUpper function.
+
+Maybe a string of punctuation.
+(Dont touch anything which isnt a letter????) or search for punctuation if it isnt find the letter? first option seems better.
+
+Loop over sentence or string // change to array? split()
+
+find the letter in the alphabet array and + the shift on to find new letter
+
+use modulo to wrap around alphabet
+
+should work with negative numbers.
+
+
